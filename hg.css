@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.back {
+    background: #F3D7B7;
+
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+
+}
+
+header nav ol {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.s1 {
+    
+    height: 850px;
+    padding: 130px 0;
+}
+.s1 .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn1 {
+    width: 193px;
+    height: 51px;
+    border: 2px solid #0A775F;
+    border-radius: 100px;
+    background-color: #F3D7B7;
+    color: #0A775F;
+
+
+}
+.monet{
+    animation-name: mon ;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes mon{
+    form{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+
+}
+.s1 h1 {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.s1 p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.btn1:hover {
+    background-color: #0A775F;
+    color: white;
+}
+
+
+.text {
+    margin-top: 100px;
+}
+
+
+
+.s2 {
+    padding: 50px;
+    background: #fbf3e9;
+}
+
+.s2 h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 50px;
+    font-weight: 600;
+}
+
+.ll {
+    display: flex;
+
+    gap: 150px;
+    justify-content: center;
+}
+.box{
+   
+  flex-wrap: wrap;
+    display: flex;
+
+}
+.textbox {
+    padding-top: 70px;
+}
+.hh{
+    position: relative;
+}
+
+.monet {
+    position: absolute;
+    width: 159px;
+    height: 159px;
+    top: -100px;
+    left: -100px;
+}
+.textbox h2{
+    margin-bottom: 30px;
+    font-size: 56px;
+
+}
+.textbox p{
+    font-size: 22px;
+}
+footer{
+    background-color: #F3D7B7;
+    padding: 50px;
+    display: flex;
+    
+    justify-content: space-between;
+}
+.logoint{
+    display: flex;
+    gap: 10px;
+
+}
+footer .container{
+    display: flex;
+    align-items: center;
+   gap: 300px;
+
+}
+footer .container nav ol{
+    list-style: none;
+display: flex;
+gap: 50px;
+font-size: 30px;
+}
+footer .container nav li:hover{
+    color: rgb(255, 255, 255);
+}
+header .container nav li:hover{
+    color: rgb(255, 255, 255);
+}
+header .container nav li{
+    font-size: 25px;
+    
+}
+.s11 .container{
+    display: flex;
+   gap: 150px;
+    padding: 50px;
+    background-color: #f3eeea;
+
+}
+.s11 img{
+    align-items: center;
+}
+.textbox2 p{
+    margin-top: 20px;
+
+}
+.s12 .container{
+    display: flex;
+    padding: 50px;
+    gap: 150px;
+    height: 510px;
+}
+.s12 img{
+    position: relative;
+    bottom: 200px;
+
+
+}
+.textbox3{
+    margin-top: 100px;
+    color: white;
+
+}
+.textbox3 p{
+    margin-top: 20px;
+}
